@@ -96,3 +96,12 @@ export default function App() {
     Enviar print no WhatsApp
   </a>
 </div>
+      {/* Footer */}
+      <footer style={styles.footer}>
+        <div style={styles.container}>
+          © 2025 Wind Uniformes. Quem conhece, confia!
+        </div>
+      </footer>
+    </div>
+  );
+}
