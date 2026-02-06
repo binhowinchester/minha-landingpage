@@ -77,6 +77,22 @@ export default function App() {
               <p style={styles.p}>
                 Avalie a gente no Google, mande o print no WhatsApp e participe! ✨
               </p>
+<div style={styles.btnRow}>
+  <a
+    href={googleReviewLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={styles.btn2}
+  >
+    Abrir avaliação no Google
+  </a>
 
-              <div style={styles.btnRow}>
-                <a href={googleReviewLink} target="_blank" rel="noopener noreferrer" style={styles.btn2}>
+  <a
+    href={whatsappLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={styles.btn}
+  >
+    Enviar print no WhatsApp
+  </a>
+</div>
